@@ -1,12 +1,17 @@
 import './App.css';
-import ProjectsPage from './ProjectsPage';
+import Navbar from './Navbar';
 
 function App() {
   return (
-    <div className="center">
-      <h1>Julianna Messineo</h1>
-      <ProjectsPage />
-    </div>
+    <>
+      <Navbar />
+      <div className="center">
+        <div className="title">
+          <h1>Julianna Messineo</h1>
+          <span className="subtitle">Product Minded Developer</span>
+        </div>
+      </div>
+    </>
   );
 }
 

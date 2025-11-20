@@ -1,13 +1,3 @@
-import { Cloudinary } from '@cloudinary/url-gen';
-import { AdvancedImage } from '@cloudinary/react';
-import type { CloudinaryImage } from '@cloudinary/url-gen';
-import type { ComponentType } from 'react';
-
-// Type assertion to work around React 19 compatibility issue
-const CloudinaryImg = AdvancedImage as unknown as ComponentType<{
-  cldImg: CloudinaryImage;
-}>;
-
 interface ProjectProps {
   title: string;
   stack: string[];
@@ -23,11 +13,6 @@ export default function Project({
   deployed,
   github,
 }: ProjectProps) {
-  const cld = new Cloudinary({
-    cloud: {
-      cloudName: 'dvxciuy3e',
-    },
-  });
   return (
     <div className="project-card">
       <h2 className="project-title">{title}</h2>
