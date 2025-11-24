@@ -6,13 +6,17 @@
     "projects": ["equation-from-table"],
     "books": [
       {
-        "name": "The Pragmatic Programmer (I only made it halfway through)",
+        "title": "The Pragmatic Programmer (I only made it halfway through)",
         "author": "David Thomas and Andrew Hunt"
       }
     ],
     "questions": [
       "How do I create inputs for the user to interact with the site? And outputs to display things to them? (I was misled into learning Javascript before HTML and CSS)"
-    ]
+    ],
+    "point": {
+      "x": 3.35,
+      "y": 4.23
+    }
   },
   {
     "startDate": "2024-05-25",
@@ -23,7 +27,11 @@
     "questions": [
       "How do I wireframe a website?",
       "How do I make my website intuitive for users?"
-    ]
+    ],
+    "point": {
+      "x": 11.45,
+      "y": 6.36
+    }
   },
   {
     "startDate": "2024-06-05",
@@ -40,7 +48,11 @@
       "How do I center a div in <fill in the blank scenario>?",
       "How do I make sure my website is accessible with semantic HTML?",
       "How do I integrate data from a JSON file?"
-    ]
+    ],
+    "point": {
+      "x": 9.26,
+      "y": 9.96
+    }
   },
   {
     "startDate": "2024-06-26",
@@ -51,7 +63,11 @@
     "questions": [
       "How do I keep track of error states across the application when a few different user inputs can affect whether a set of inputs is considered an error state?",
       "How do I use event handlers to update the state with each change in input?"
-    ]
+    ],
+    "point": {
+      "x": 0.7,
+      "y": 10.79
+    }
   },
   {
     "startDate": "2024-07-08",
@@ -60,7 +76,7 @@
     "projects": ["visual-fraction-libary"],
     "books": [
       {
-        "name": "Start Small Stay Small",
+        "title": "Start Small Stay Small",
         "author": "Rob Walling"
       }
     ],
@@ -71,7 +87,11 @@
       "Which parts of this would be made easier with something like React?",
       "How do I make my SVG generated images fit well on any screen size and allow the user to customize the image size as well?",
       "How do I ensure evenly spaced items (like circles) with varying quantities and image dimensions?"
-    ]
+    ],
+    "point": {
+      "x": 2.56,
+      "y": 14.6
+    }
   },
   {
     "startDate": "2024-09-22",
@@ -80,11 +100,11 @@
     "projects": ["visual-fraction-libary"],
     "books": [
       {
-        "name": "Intuitive Design",
+        "title": "Intuitive Design",
         "author": "Everett N. McKay"
       },
       {
-        "name": "Database Design for Mere Mortals (first 3 chapters)",
+        "title": "Database Design for Mere Mortals (first 3 chapters)",
         "author": "Michael J. Hernandez"
       }
     ],
@@ -93,7 +113,11 @@
       "How can I use my user analytics and session replays to make meaningful improvements to my website?",
       "How do I decide when to be `done` with a project even if it's not perfect?",
       "Am I ready to start learning React? Backend?"
-    ]
+    ],
+    "point": {
+      "x": 11.16,
+      "y": 15.19
+    }
   },
   {
     "startDate": "2024-10-10",
@@ -102,14 +126,18 @@
     "projects": ["wordle"],
     "books": [
       {
-        "name": "The Pragmatic Programmer (again)",
+        "title": "The Pragmatic Programmer (again)",
         "author": "David Thomas and Andrew Hunt"
       }
     ],
     "questions": [
       "When do I need to use useEffect?",
       "When do I need to use useRef?"
-    ]
+    ],
+    "point": {
+      "x": 16.01,
+      "y": 19.37
+    }
   },
   {
     "startDate": "2024-11-18",
@@ -118,14 +146,18 @@
     "projects": ["just-desserts", "job-listings", "mortgage-calculator"],
     "books": [
       {
-        "name": "Secrets of the Javascript Ninja",
+        "title": "Secrets of the Javascript Ninja",
         "author": "John Resig, Bear Bibeault, Josip Maras"
       }
     ],
     "questions": [
       "What are good use cases for custom hooks?",
       "Should I make these two functionally similar but visually a little different UI components two different components or have a few conditionals to handle the difference?"
-    ]
+    ],
+    "point": {
+      "x": 7.63,
+      "y": 21.0
+    }
   },
   {
     "startDate": "2025-01-06",
@@ -134,7 +166,7 @@
     "projects": ["frectangles"],
     "books": [
       {
-        "name": "The Unicorn Project (fiction about tech debt)",
+        "title": "The Unicorn Project (fiction about tech debt)",
         "author": "Gene Kim"
       }
     ],
@@ -145,7 +177,11 @@
       "How do I allow the boards and pieces to be generated dynamically from my levels.json?",
       "How do I adjust the CSS of the board so it has the right border for any given board shape (with missing corners, inside, etc)?",
       "How do I set the unit size for each level to fit on various screen sizes and to accommodate the various board dimensions and number of pieces?"
-    ]
+    ],
+    "point": {
+      "x": 3.69,
+      "y": 24.39
+    }
   },
   {
     "startDate": "2025-02-06",
@@ -154,7 +190,7 @@
     "projects": ["lesson-links"],
     "books": [
       {
-        "name": "Clean Code",
+        "title": "Clean Code",
         "author": "Robert C. Martin"
       }
     ],
@@ -165,7 +201,11 @@
       "What should be considered a branch?",
       "Can I or should I collaborate with someone else on a branch?",
       "How can Git features and continuous integration help with these challenges?"
-    ]
+    ],
+    "point": {
+      "x": 12.25,
+      "y": 25.15
+    }
   },
   {
     "startDate": "2025-03-07",
@@ -174,7 +214,7 @@
     "projects": ["to-do"],
     "books": [
       {
-        "name": "The Pragmatic Programmer (for a 3rd time)",
+        "title": "The Pragmatic Programmer (for a 3rd time)",
         "title": "David Thomas and Andrew Hunt"
       }
     ],
@@ -183,7 +223,11 @@
       "What's the point of CORS?",
       "What are best practices for setting up a REST API?",
       "How do I use MongoDB?"
-    ]
+    ],
+    "point": {
+      "x": 20.44,
+      "y": 27.26
+    }
   },
   {
     "startDate": "2025-04-16",
@@ -196,7 +240,11 @@
       "Where is the line between unit and integration testing? And integration and end to end testing?",
       "How can we write tests behind a login screen that requires OAUTH (no username and password)?",
       "How do I avoid testing the implementation details in component testing if the cause or effect occurs outside of that component?"
-    ]
+    ],
+    "point": {
+      "x": 12.76,
+      "y": 29.81
+    }
   },
   {
     "startDate": "2025-06-29",
@@ -219,11 +267,19 @@
       "How can I tease apart my state management so each context provider handles it's own state updates and one context provider cannot directly update the state of another?",
       "How can I use component composition to have one ActionsToolbar component wrap around three different puzzle piece components and act as a controller for each of them?",
       "How can I pass a ref to a parent component to allow my controller component to rotate each puzzle piece? (I ended up leaving the ref and rotation animation function in each individual puzzle piece component)."
-    ]
+    ],
+    "point": {
+      "x": 4.14,
+      "y": 30.24
+    }
   },
   {
     "startDate": "2025-09-01",
     "endDate": "current",
-    "learning": ""
+    "learning": "",
+    "point": {
+      "x": 1.42,
+      "y": 33.32
+    }
   }
 ]
