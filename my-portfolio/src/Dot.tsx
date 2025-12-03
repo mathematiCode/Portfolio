@@ -17,7 +17,7 @@ interface Snapshot {
   point: { x: number; y: number };
 }
 
-function Dot({ snapshot }: { x: number; y: number; snapshot: Snapshot }) {
+function Dot({ snapshot }: { snapshot: Snapshot }) {
   const { x, y } = snapshot.point;
   const project = projects[0];
 

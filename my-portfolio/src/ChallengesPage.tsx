@@ -7,7 +7,7 @@ function ChallengesPage({}) {
     <>
       <Navbar />
       {challenges.map(challenge => {
-        <Challenge challenge={challenge} />;
+        return <Challenge key={challenge.id} challenge={challenge} />;
       })}
     </>
   );

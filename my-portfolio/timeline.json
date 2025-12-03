@@ -215,7 +215,7 @@
     "books": [
       {
         "title": "The Pragmatic Programmer (for a 3rd time)",
-        "title": "David Thomas and Andrew Hunt"
+        "author": "David Thomas and Andrew Hunt"
       }
     ],
     "questions": [
@@ -277,6 +277,9 @@
     "startDate": "2025-09-01",
     "endDate": "current",
     "learning": "",
+    "projects": [],
+    "books": [],
+    "questions": [],
     "point": {
       "x": 1.42,
       "y": 33.32
