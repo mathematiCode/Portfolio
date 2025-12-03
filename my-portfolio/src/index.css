@@ -133,14 +133,38 @@ a:hover {
 .snapshot-card {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   gap: 10px;
   padding: 10px;
-  width: 450px;
-  height: 350px;
+  padding-inline: 20px;
+  width: 600px;
   border-radius: 10px;
   background-color: #c5faf7;
   border: 2px solid black;
   box-shadow: 5px 5px rgb(62, 62, 62);
   position: relative;
+}
+
+.snapshot-card > h2 {
+  margin-bottom: 2px;
+  margin-top: 8px;
+}
+
+.snapshot-card > p {
+  margin: 0px;
+}
+
+.snapshot-projects {
+  display: flex;
+  gap: 10px;
+}
+
+.snapshot-books {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.challenges {
+  margin-top: 30px;
 }

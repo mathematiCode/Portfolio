@@ -6,7 +6,7 @@
     "projects": ["equation-from-table"],
     "books": [
       {
-        "title": "The Pragmatic Programmer (I only made it halfway through)",
+        "title": "The Pragmatic Programmer",
         "author": "David Thomas and Andrew Hunt"
       }
     ],
@@ -16,7 +16,8 @@
     "point": {
       "x": 3.35,
       "y": 4.23
-    }
+    },
+    "timeframe": "January 2024 - May 2024"
   },
   {
     "startDate": "2024-05-25",
@@ -31,7 +32,8 @@
     "point": {
       "x": 11.45,
       "y": 6.36
-    }
+    },
+    "timeframe": "May 2024 - June 2024"
   },
   {
     "startDate": "2024-06-05",
@@ -52,7 +54,8 @@
     "point": {
       "x": 9.26,
       "y": 9.96
-    }
+    },
+    "timeframe": "June 2024 - June 2024"
   },
   {
     "startDate": "2024-06-26",
@@ -67,7 +70,8 @@
     "point": {
       "x": 0.7,
       "y": 10.79
-    }
+    },
+    "timeframe": "June 2024 - July 2024"
   },
   {
     "startDate": "2024-07-08",
@@ -91,7 +95,8 @@
     "point": {
       "x": 2.56,
       "y": 14.6
-    }
+    },
+    "timeframe": "July 2024 - September 2024"
   },
   {
     "startDate": "2024-09-22",
@@ -117,7 +122,8 @@
     "point": {
       "x": 11.16,
       "y": 15.19
-    }
+    },
+    "timeframe": "September 2024 - October 2024"
   },
   {
     "startDate": "2024-10-10",
@@ -137,7 +143,8 @@
     "point": {
       "x": 16.01,
       "y": 19.37
-    }
+    },
+    "timeframe": "October 2024 - November 2024"
   },
   {
     "startDate": "2024-11-18",
@@ -156,8 +163,9 @@
     ],
     "point": {
       "x": 7.63,
-      "y": 21.0
-    }
+      "y": 21
+    },
+    "timeframe": "November 2024 - January 2025"
   },
   {
     "startDate": "2025-01-06",
@@ -181,7 +189,8 @@
     "point": {
       "x": 3.69,
       "y": 24.39
-    }
+    },
+    "timeframe": "January 2025 - February 2025"
   },
   {
     "startDate": "2025-02-06",
@@ -205,7 +214,8 @@
     "point": {
       "x": 12.25,
       "y": 25.15
-    }
+    },
+    "timeframe": "February 2025 - March 2025"
   },
   {
     "startDate": "2025-03-07",
@@ -227,7 +237,8 @@
     "point": {
       "x": 20.44,
       "y": 27.26
-    }
+    },
+    "timeframe": "March 2025 - April 2025"
   },
   {
     "startDate": "2025-04-16",
@@ -244,13 +255,14 @@
     "point": {
       "x": 12.76,
       "y": 29.81
-    }
+    },
+    "timeframe": "April 2025 - June 2025"
   },
   {
     "startDate": "2025-06-29",
     "endDate": "2025-08-31",
     "learning": "Frectangles Work Part 2. Figuring out UX of invalid puzzle piece states, keeping track of the board squares to detect overlaps, invalid positions, and whether the user has 'passed' the level. Refactoring my code for cleanliness and reusability.",
-    "projects": ["frectangles"],
+    "projects": ["Frectangles - a math game"],
     "books": [
       {
         "title": "Designing Data Intensive Applications",
@@ -271,18 +283,29 @@
     "point": {
       "x": 4.14,
       "y": 30.24
-    }
+    },
+    "timeframe": "June 2025 - August 2025"
   },
   {
     "startDate": "2025-09-01",
     "endDate": "current",
     "learning": "",
-    "projects": [],
-    "books": [],
+    "projects": ["Meet Near Me"],
+    "books": [
+      {
+        "title": "Tao of Node",
+        "author": "Alex Kondov"
+      },
+      {
+        "title": "Learn Go with Tests - digital book with exercises",
+        "author": "Chris James"
+      }
+    ],
     "questions": [],
     "point": {
       "x": 1.42,
       "y": 33.32
-    }
+    },
+    "timeframe": "September 2025 - Present"
   }
 ]

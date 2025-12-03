@@ -11,4 +11,5 @@ export interface SnapshotType {
   books: Book[];
   questions: string[];
   point: { x: number; y: number };
+  timeframe: string;
 }

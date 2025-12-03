@@ -2,13 +2,16 @@ import challenges from '../challenges.json';
 import Challenge from './Challenge';
 import Navbar from './Navbar';
 
-function ChallengesPage({}) {
+function ChallengesPage() {
   return (
     <>
       <Navbar />
-      {challenges.map(challenge => {
-        return <Challenge key={challenge.id} challenge={challenge} />;
-      })}
+      <h1>My Biggest Challenges so far...</h1>
+      <div className="challenges">
+        {challenges.map(challenge => {
+          return <Challenge key={challenge.id} challenge={challenge} />;
+        })}
+      </div>
     </>
   );
 }

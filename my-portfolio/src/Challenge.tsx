@@ -8,7 +8,14 @@ interface ChallengeProps {
 }
 
 function Challenge({ challenge }: { challenge: ChallengeProps }) {
-  return <div>{challenge.challenge}</div>;
+  return (
+    <div>
+      <h2>{challenge.challenge}</h2>
+      <p>{challenge.explanation}</p>
+      <code>{challenge.codeSnippet}</code>
+      {challenge.example && <a>{challenge.example}</a>}
+    </div>
+  );
 }
 
 export default Challenge;
