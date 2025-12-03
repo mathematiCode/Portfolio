@@ -1,7 +1,7 @@
 import Navbar from './Navbar';
 import Dot from './Dot';
 import timeline from '../timeline.json';
-import { useRef, useEffect } from 'react';
+import { useRef } from 'react';
 //import { range } from 'lodash';
 
 function TimelinePage() {

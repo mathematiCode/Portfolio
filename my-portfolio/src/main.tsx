@@ -7,6 +7,7 @@ import App from './App.tsx';
 import ChallengesPage from './ChallengesPage.tsx';
 import ProjectsPage from './ProjectsPage.tsx';
 import TimelinePage from './TimelinePage.tsx';
+import '@radix-ui/themes/styles.css';
 
 const router = createBrowserRouter([
   {
