@@ -129,3 +129,18 @@ a:hover {
   box-shadow: 5px 5px 15px 15px white;
   cursor: pointer;
 }
+
+.snapshot-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  width: 450px;
+  height: 350px;
+  border-radius: 10px;
+  background-color: #c5faf7;
+  border: 2px solid black;
+  box-shadow: 5px 5px rgb(62, 62, 62);
+  position: relative;
+}

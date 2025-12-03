@@ -1,25 +1,10 @@
 import * as Popover from '@radix-ui/react-popover';
-import Project from './Project';
-import projects from '../projects.json';
+import Snapshot from './Snapshot';
+import type { SnapshotType } from './types';
 
-interface Book {
-  title: string;
-  author: string;
-}
-
-interface Snapshot {
-  startDate: string;
-  endDate: string;
-  learning: string;
-  projects: string[];
-  books: Book[];
-  questions: string[];
-  point: { x: number; y: number };
-}
-
-function Dot({ snapshot }: { snapshot: Snapshot }) {
+function Dot({ snapshot }: { snapshot: SnapshotType }) {
   const { x, y } = snapshot.point;
-  const project = projects[0];
+  // const project = projects[0];
 
   return (
     <Popover.Root>
@@ -30,14 +15,15 @@ function Dot({ snapshot }: { snapshot: Snapshot }) {
       </Popover.Trigger>
       <Popover.Portal>
         <Popover.Content side="top" sideOffset={5}>
-          <Project
+          {/* <Project
             key={project.id}
             title={project.name}
             stack={project.stack}
             image={project.image}
             deployed={project.link}
             github={project.link}
-          ></Project>
+          ></Project> */}
+          <Snapshot snapshot={snapshot} />
         </Popover.Content>
       </Popover.Portal>
     </Popover.Root>

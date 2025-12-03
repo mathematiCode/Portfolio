@@ -2,7 +2,7 @@ import Project from './Project.tsx';
 import Navbar from './Navbar.tsx';
 import projects from '../projects.json' assert { type: 'json' };
 
-function ProjectsPage({}) {
+function ProjectsPage() {
   return (
     <>
       <Navbar />
