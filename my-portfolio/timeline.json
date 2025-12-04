@@ -77,7 +77,7 @@
     "startDate": "2024-07-08",
     "endDate": "2024-09-22",
     "learning": "Building a complex fraction image generation app in Vanilla Javascript as a portfolio project that could have real users.",
-    "projects": ["visual-fraction-libary"],
+    "projects": ["visual-fraction-library"],
     "books": [
       {
         "title": "Start Small Stay Small",
@@ -102,7 +102,7 @@
     "startDate": "2024-09-22",
     "endDate": "2024-10-05",
     "learning": "Deploying a site and hooking it up a domain, marketing, setting up google analytics and Hotjar, analyzing user sessions and other data.",
-    "projects": ["visual-fraction-libary"],
+    "projects": ["visual-fraction-library"],
     "books": [
       {
         "title": "Intuitive Design",
@@ -262,7 +262,7 @@
     "startDate": "2025-06-29",
     "endDate": "2025-08-31",
     "learning": "Frectangles Work Part 2. Figuring out UX of invalid puzzle piece states, keeping track of the board squares to detect overlaps, invalid positions, and whether the user has 'passed' the level. Refactoring my code for cleanliness and reusability.",
-    "projects": ["Frectangles - a math game"],
+    "projects": ["frectangles"],
     "books": [
       {
         "title": "Designing Data Intensive Applications",
@@ -290,7 +290,7 @@
     "startDate": "2025-09-01",
     "endDate": "current",
     "learning": "",
-    "projects": ["Meet Near Me"],
+    "projects": ["meet-near-me"],
     "books": [
       {
         "title": "Tao of Node",

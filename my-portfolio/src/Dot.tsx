@@ -23,7 +23,7 @@ function Dot({ snapshot }: { snapshot: SnapshotType }) {
             deployed={project.link}
             github={project.link}
           ></Project> */}
-          <Snapshot snapshot={snapshot} />
+          <Snapshot key={'x' + 'y'} snapshot={snapshot} />
         </Popover.Content>
       </Popover.Portal>
     </Popover.Root>

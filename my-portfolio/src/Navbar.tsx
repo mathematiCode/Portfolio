@@ -1,4 +1,4 @@
-function Navbar({}) {
+function Navbar() {
   return (
     <div className="navbar">
       <a href="/projects">Projects</a>

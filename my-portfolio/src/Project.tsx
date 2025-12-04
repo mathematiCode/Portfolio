@@ -6,13 +6,7 @@ interface ProjectProps {
   github: string;
 }
 
-export default function Project({
-  title,
-  stack,
-  image,
-  deployed,
-  github,
-}: ProjectProps) {
+function Project({ title, stack, image, deployed, github }: ProjectProps) {
   return (
     <div className="project-card">
       <h2 className="project-title">{title}</h2>
@@ -34,3 +28,5 @@ export default function Project({
     </div>
   );
 }
+
+export default Project;

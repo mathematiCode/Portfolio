@@ -12,7 +12,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
+a,
+button {
   color: black;
   text-decoration: none;
   font-weight: 600;
@@ -167,4 +168,8 @@ a:hover {
 
 .challenges {
   margin-top: 30px;
+}
+
+.wonderings {
+  margin-top: 0px;
 }
